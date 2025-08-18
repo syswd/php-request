@@ -1,5 +1,5 @@
 {
-    "name": "josantonius/request",
+    "name": "syswd/request",
     "type": "library",
     "description": "PHP library for handling requests.",
     "keywords": [
