@@ -348,4 +348,24 @@ class Request
             $data[$matches[1]] = $matches[2];
         }
     }
+
+    public function get()
+    {
+        return static::input('get');
+    }
+
+    public function post()
+    {
+        return static::input('post');
+    }
+
+    public function delete()
+    {
+        return static::input('delete');
+    }
+
+    public function put()
+    {
+        return static::input('put');
+    }
 }
